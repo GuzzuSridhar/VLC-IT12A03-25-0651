@@ -47,6 +47,12 @@ public class DataTypes {
         // 64 bit signed floating pount value
         double incentive = 6766.77;
 
+        // declare a boolean variable
+        boolean isGood = true;
+
+        // declare a char type variable
+        char type = 'a';
+
         // printing the variable values
         System.out.println(age);
         System.out.println(count);
@@ -54,6 +60,8 @@ public class DataTypes {
         System.out.println(months);
         System.out.println(salary);
         System.out.println(incentive);
+        System.out.println(isGood);
+        System.out.println(type);
 
     }
 
