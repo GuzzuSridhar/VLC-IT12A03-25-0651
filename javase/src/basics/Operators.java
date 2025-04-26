@@ -36,5 +36,11 @@ public class Operators {
         System.out.println(x <= y); // less than or equals
 
         // Logical Operators
+        boolean isGood = x > 10 && y < 30; // Logical AND "&&"
+        System.out.println(isGood);
+        isGood = x > 10 || y < 30; // Logical OR "||"
+        System.out.println(isGood);
+        isGood = !(x > 10 || y < 10); // Logical OR "||"
+        System.out.println(isGood);
     }
 }
