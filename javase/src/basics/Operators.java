@@ -15,6 +15,18 @@ public class Operators {
         System.out.println(x--); // post decrement "--"
         System.out.println(--x); // pre decrement "--"
         // Assignment Operators
+        x = 30; // equal operator "="
+        x += 20; // add and assign "+=" (is same as x = x + 20)
+        System.out.println("x is " + x);
+        x -= 20; // subtract and assign "-="
+        System.out.println("x is " + x);
+        x *= 20; // multiply and assign "*="
+        System.out.println("x is " + x);
+        x /= 20; // divide and assign "/="
+        System.out.println("x is " + x);
+        x %= 20; // modulo and assign "/="
+        System.out.println("x is " + x);
+
         // Comparision Operators
         // Logical Operators
     }
