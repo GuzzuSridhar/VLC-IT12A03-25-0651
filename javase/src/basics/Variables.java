@@ -14,5 +14,14 @@ public class Variables {
         System.out.println(b);
         System.out.println(c);
 
+        // reference variable to another
+        int g = 100;
+        int h = g;
+        System.out.println(h);
+
+        byte by = (byte) g;
+
+        int xy = by;
+
     }
 }
