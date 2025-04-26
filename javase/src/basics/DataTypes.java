@@ -38,11 +38,22 @@ public class DataTypes {
         // 64 bit signed integer
         long months = 189;
 
+        // declare a float type variable
+        // 32 bit signed floating pount value
+        float salary = 7889.87f; // f is used to denote the float type as all decimal numbers are double by
+                                 // default
+
+        // declare a double type variable
+        // 64 bit signed floating pount value
+        double incentive = 6766.77;
+
         // printing the variable values
         System.out.println(age);
         System.out.println(count);
         System.out.println(counts);
         System.out.println(months);
+        System.out.println(salary);
+        System.out.println(incentive);
 
     }
 
