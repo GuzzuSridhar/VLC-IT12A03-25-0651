@@ -12,7 +12,7 @@ public class SpecialNumbers {
         int binNum = 0b011;
         System.out.println(binNum);
 
-        // Hex number assignment. any number with prefix of zerob "0b"
+        // Hex number assignment. any number with prefix of zerox "0x"
         int hexNum = 0x11;
         System.out.println(hexNum);
 
