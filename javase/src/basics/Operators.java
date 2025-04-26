@@ -28,6 +28,13 @@ public class Operators {
         System.out.println("x is " + x);
 
         // Comparision Operators
+        System.out.println(x == y); // equality
+        System.out.println(x != y); // inequality
+        System.out.println(x > y); // greater than
+        System.out.println(x < y); // less than
+        System.out.println(x >= y); // greater than or equals
+        System.out.println(x <= y); // less than or equals
+
         // Logical Operators
     }
 }
