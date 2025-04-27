@@ -52,5 +52,11 @@ public class Conditions {
             System.out.println("Good Salary");
         }
         input.close();
+
+        // Ternary operator
+        // is a shorcut of if - else
+        int age = 18;
+        String status = (age > 18) ? "Major" : "Minor";
+        System.out.println(status);
     }
 }
