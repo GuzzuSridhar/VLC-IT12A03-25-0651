@@ -9,6 +9,7 @@ public class StringClass {
         // string in java are zero based indexed
         // Strings in java do not have negative index
         // Strings can containg alphanumeric values
+        // Strings are case sensitive
         String name = "Alex"; // string literals
         System.out.println(name);
         System.out.println(name.charAt(0));
@@ -55,6 +56,31 @@ public class StringClass {
         s2 = "hello";
         System.out.println(s1.equals(s2)); // false because of the casing
         System.out.println(s1.equalsIgnoreCase(s2)); // True because of the ignoring the casing
+
+        // lowercase
+        String t1 = "HELLO";
+        System.out.println(t1.toLowerCase());
+        // uppercase
+        System.out.println(t1.toUpperCase());
+
+        // substring
+        t1 = "Welcome to Java";
+        System.out.println(t1.charAt(8));
+        System.out.println(t1.substring(8));
+        System.out.println(t1.substring(8, 10));
+
+        // joining Strings
+        String one = "Hello";
+        String two = "World";
+        // concat
+        System.out.println(one.concat(two));
+        System.out.println(one.concat(" ").concat(two)); // method chaining
+        // using the +
+        System.out.println(one + " " + two);
+        // trimming spaces
+        t1 = "       Alex          ";
+        System.out.println(t1.length());
+        System.out.println(t1.trim().length());
 
     }
 }
