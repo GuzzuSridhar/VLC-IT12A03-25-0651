@@ -1,6 +1,9 @@
 package basics;
 
+import java.util.Scanner;
+
 public class Conditions {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         double salary = 5000, comm = 657.44;
 
@@ -23,10 +26,24 @@ public class Conditions {
         // using the default condition
         if (salary > 5000) {
             System.out.println("The salary is more than 5000");
+            System.out.println("The salary is more than 5000");
+            System.out.println("The salary is more than 5000");
+            System.out.println("The salary is more than 5000");
         } else if (salary < 5000) {
             System.out.println("The salary is less than 5000");
         } else {
             System.out.println("The salary is 5000");
+        }
+
+        // if stmt with strings
+        String pass = "Password", query = "";
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter Password: ");
+        query = input.nextLine();
+        if (pass.equals(query)) {
+            System.out.println("Welcome");
+        } else {
+            System.out.println("Invalid Password");
         }
 
     }
