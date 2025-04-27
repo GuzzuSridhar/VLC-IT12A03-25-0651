@@ -1,6 +1,7 @@
 package basics;
 
 public class Variables {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // declare single variable
         int x = 10; // variable with assignment of a value
@@ -22,6 +23,14 @@ public class Variables {
         byte by = (byte) g;
 
         int xy = by;
+
+        // operator precedence (PEDMAS or BODMAS)
+        // Parantheses , Exponents, Multiplication and division (Left to right),
+        // Addition and subtraction (Left to right)
+        // Brackets, Order, Multiplication and division (Left to right), Addition and
+        // subtraction (Left to right)
+
+        int res = (2 + 10 + 20 * 2) + 10; // 62
 
     }
 }
