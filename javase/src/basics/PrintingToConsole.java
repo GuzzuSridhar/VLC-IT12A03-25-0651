@@ -17,5 +17,6 @@ public class PrintingToConsole {
 
         // using the format
         System.out.printf("I am %s and my age is %d \n", name, age);
+        System.out.printf("I am %s and my age is %d", name, age);
     }
 }
