@@ -27,5 +27,14 @@ public class StringClass {
         int convStr = Integer.parseInt(test);
         System.out.println(convStr);
 
+        // ways to declare Strings
+        // String Literal
+        String strLiteral = "Literal";
+        // String Object
+        String strObj = new String("String Object");
+
+        System.out.println(strLiteral);
+        System.out.println(strObj);
+
     }
 }
