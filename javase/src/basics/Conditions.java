@@ -51,12 +51,43 @@ public class Conditions {
         if (isGoodSal) {
             System.out.println("Good Salary");
         }
-        input.close();
 
         // Ternary operator
         // is a shorcut of if - else
         int age = 18;
         String status = (age > 18) ? "Major" : "Minor";
         System.out.println(status);
+
+        // Switch Statement
+        byte dow = 1;
+        System.out.println("Enter a day of the week (1-7)");
+        dow = input.nextByte();
+        switch (dow) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Invalid day of Week");
+                // break;
+        }
+        input.close();
     }
 }
