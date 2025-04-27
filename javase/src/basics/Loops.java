@@ -44,5 +44,23 @@ public class Loops {
             }
         }
 
+        System.out.println("\n-----------------------Continue Statement--------------------");
+        // contiunue statement exits the current iteration
+        for (int i = 0; i < 10; i++) {
+            if (i == 5) {
+                continue;
+            }
+            System.out.println(i);
+        }
+
+        System.out.println("\n-----------------------Break Statement--------------------");
+        // break statement exists the loop
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+            if (i == 5) {
+                break;
+            }
+        }
+        System.out.println("This is executed");
     }
 }
