@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Conditions {
     // @SuppressWarnings("resource")
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         double salary = 5000, comm = 657.44;
 
