@@ -3,6 +3,7 @@ package basics;
 import java.util.Scanner;
 
 public class UserInput {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         // have a Scanner object to take use Input
         Scanner scan = new Scanner(System.in);
