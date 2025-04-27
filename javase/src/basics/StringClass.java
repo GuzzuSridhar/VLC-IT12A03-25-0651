@@ -1,6 +1,7 @@
 package basics;
 
 public class StringClass {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // working with Strings
         // strings are always in a double quotes
@@ -35,6 +36,25 @@ public class StringClass {
 
         System.out.println(strLiteral);
         System.out.println(strObj);
+
+        // Comparing String values
+        String s1 = "Hello";
+        String s2 = "Hello";
+        String s3 = "Hello World";
+        String s4 = new String("Hello");
+        String s5 = new String("Hello");
+        String s6 = new String("Hello World");
+
+        System.out.println(s1 == s2); // true (check based on Memory address)
+        System.out.println(s1 == s3); // false (check based on Memory address)
+        System.out.println(s1.equals(s2)); // true (check based on Values)
+
+        System.out.println(s1 == s4); // false (check based on Memory address)
+        System.out.println(s1.equals(s4)); // true (check based on Values)
+
+        s2 = "hello";
+        System.out.println(s1.equals(s2)); // false because of the casing
+        System.out.println(s1.equalsIgnoreCase(s2)); // True because of the ignoring the casing
 
     }
 }
