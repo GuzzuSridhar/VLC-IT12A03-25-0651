@@ -3,7 +3,7 @@ package basics;
 import java.util.Scanner;
 
 public class Conditions {
-    @SuppressWarnings("resource")
+    // @SuppressWarnings("resource")
     public static void main(String[] args) {
         double salary = 5000, comm = 657.44;
 
@@ -46,5 +46,11 @@ public class Conditions {
             System.out.println("Invalid Password");
         }
 
+        // if stmt with booleans
+        boolean isGoodSal = salary > 6000;
+        if (isGoodSal) {
+            System.out.println("Good Salary");
+        }
+        input.close();
     }
 }
