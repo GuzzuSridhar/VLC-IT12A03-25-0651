@@ -14,6 +14,9 @@ public class Loops {
         }
 
         String test = "Hello";
+        for (int i = test.length() - 1; i >= 0; i--) {
+            System.out.print(test.charAt(i));
+        }
 
     }
 }
