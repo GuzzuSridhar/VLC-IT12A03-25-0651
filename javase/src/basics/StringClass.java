@@ -99,5 +99,11 @@ public class StringClass {
                 """;
         System.out.println(t1);
 
+        // Strings are Mutable Objects
+        t1 = "Hello";
+        System.out.println(t1.hashCode());
+        t1 = "World";
+        System.out.println(t1.hashCode());
+
     }
 }
