@@ -106,6 +106,14 @@ public class Conditions {
                 System.out.println("Invalid day of Week");
                 // break;
         }
+        // Switch Expressions
+        String dayStatus = switch (dow) {
+            case 1, 2, 3, 4, 5 -> "Work Day";
+            case 6, 7 -> "Week End";
+            default -> "Invalid day";
+        };
+        System.out.println(dayStatus);
+
         input.close();
     }
 }
