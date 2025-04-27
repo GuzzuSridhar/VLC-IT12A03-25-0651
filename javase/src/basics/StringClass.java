@@ -82,5 +82,22 @@ public class StringClass {
         System.out.println(t1.length());
         System.out.println(t1.trim().length());
 
+        // escape characters
+        // Alex's Car
+        t1 = "Alex's Car";
+        System.out.println(t1);
+        t1 = "Alex\"s Car";
+        System.out.println(t1);
+        t1 = "Alex \n Car";
+        System.out.println(t1);
+
+        // Text Blocks
+        t1 = """
+                Write anything here
+                and that will be
+                saved with the "format inputted
+                """;
+        System.out.println(t1);
+
     }
 }
