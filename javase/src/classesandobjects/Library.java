@@ -6,6 +6,7 @@ public class Library {
         // create instances of books
         Book b001 = new Book();
         Book b002 = new Book();
+        Book b003 = new Book();
 
         // populate the values (dot) notation is used to access class attributes
 
@@ -27,5 +28,9 @@ public class Library {
                 b001.title + " - " + b001.author + " - " + b001.genre + " - " + b001.pages + " - " + b001.pubYear);
         System.out.println(
                 b002.title + " - " + b002.author + " - " + b002.genre + " - " + b002.pages + " - " + b002.pubYear);
+
+        // default values
+        System.out.println(
+                b003.title + " - " + b003.author + " - " + b003.genre + " - " + b003.pages + " - " + b003.pubYear);
     }
 }
