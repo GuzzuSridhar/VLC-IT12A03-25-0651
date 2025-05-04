@@ -5,6 +5,7 @@ public class Employee {
     public int age;
     public String dept;
     public float sal;
+    public float annSal;
 
     public static void main(String[] args) {
         Employee e1 = new Employee();

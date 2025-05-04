@@ -22,13 +22,14 @@ public class EmployeeList {
             System.out.print("Enter Employee sal: ");
             empList[i].sal = scan.nextFloat();
             scan.nextLine();
+            empList[i].annSal = empList[i].sal * 12;
         }
         scan.close();
 
         // Printing the array
         for (Employee employee : empList) {
             System.out.println(employee.name + " " + employee.age + " " + employee.dept +
-                    " " + employee.sal);
+                    " " + employee.sal + " - " + employee.annSal);
         }
 
     }
