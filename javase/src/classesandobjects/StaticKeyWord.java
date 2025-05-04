@@ -13,8 +13,12 @@ public class StaticKeyWord {
     // 5. can be accessed with the instance name also (not recomended)
     // 6. Static variables are loaded on to the memory even if an instance is not
     // created
+    // Static key word can be used along with final for the vale to be locked (used
+    // to declare constants)
     static String schoolName = "Shepards";
+    static final String location = "Singapore";
 
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
         StaticKeyWord sk1 = new StaticKeyWord();
         StaticKeyWord sk2 = new StaticKeyWord();
@@ -24,6 +28,7 @@ public class StaticKeyWord {
         sk1.grade = 5;
         sk1.marks = 45;
         sk1.schoolName = "NewSchool"; // not recomended
+        // sk1.location = "KL"; // not allowed
 
         sk2.id = 2;
         sk2.name = "Jane";
@@ -39,7 +44,9 @@ public class StaticKeyWord {
                 + " "
                 + sk1.marks
                 + " "
-                + sk1.schoolName);
+                + sk1.schoolName
+                + " "
+                + StaticKeyWord.location);
         // print instance 2
         System.out.println(sk2.id
                 + " "
@@ -49,7 +56,9 @@ public class StaticKeyWord {
                 + " "
                 + sk2.marks
                 + " "
-                + StaticKeyWord.schoolName);
+                + StaticKeyWord.schoolName
+                + " "
+                + StaticKeyWord.location);
 
     }
 }
