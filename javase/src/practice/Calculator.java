@@ -3,8 +3,10 @@ package practice;
 import java.util.Scanner;
 
 public class Calculator {
+    static Scanner scan = new Scanner(System.in);
+
     static void add() {
-        Scanner scan = new Scanner(System.in);
+
         int input;
         int res = 0;
         System.out.print("Enter a Number to add: ");
@@ -20,7 +22,6 @@ public class Calculator {
     }
 
     static int choice() {
-        Scanner scan = new Scanner(System.in);
         System.out.println("1 for addition: ");
         System.out.println("2 for multiplication: ");
         System.out.print("Enter your choice: ");
@@ -30,7 +31,6 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
         int choice = choice();
 
         if (choice == 1) {
