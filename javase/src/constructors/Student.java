@@ -12,6 +12,7 @@ public class Student {
         System.out.println("Default constructor called");
     }
 
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // create an object of student
         Student s1 = new Student(); // calling the deafult constructor
