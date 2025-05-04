@@ -36,7 +36,6 @@ public class Calculator {
         if (choice == 1) {
             add();
             scan.close();
-
         }
     }
 }
