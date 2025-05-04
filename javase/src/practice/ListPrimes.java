@@ -5,21 +5,26 @@ import java.util.Scanner;
 public class ListPrimes {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter the count: ");
-        int input = scan.nextInt();
+        int input = 0;
         boolean isPrime = true;
+        int run = 1;
 
-        for (int j = 3; j <= input; j++) {
+        int count = 0;
+        System.out.print("Enter a Number: ");
+        input = scan.nextInt();
+        while (input > count) {
             isPrime = true;
-            for (int i = 2; i < input; i++) {
-                if (j % i == 0) {
+            for (int i = 2; i < run; i++) {
+                if (run % i == 0) {
                     isPrime = false;
                     break;
                 }
             }
             if (isPrime) {
-                System.out.println(j + ": is a prime number");
+                System.out.print(run + " ");
+                count++;
             }
+            run++;
         }
         scan.close();
     }
