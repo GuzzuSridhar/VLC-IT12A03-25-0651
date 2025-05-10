@@ -1,6 +1,6 @@
 package abstraction.interfaces;
 
-public class MayBank implements Bank {
+public class MayBank implements Bank, Govt {
 
     @Override
     public double fdInterest(double depAmt, int depPeriod) {
@@ -19,6 +19,15 @@ public class MayBank implements Bank {
 
     void someMethod() {
         System.out.println("Additional Methods");
+    }
+
+    @Override
+    public void myMethod() {
+        System.out.println("second  Method");
+    }
+
+    public static void main(String[] args) {
+        Govt.testStatic();
     }
 
 }

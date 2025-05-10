@@ -1,6 +1,6 @@
 package abstraction.interfaces;
 
-public class CitiBank implements Bank {
+public class CitiBank implements Bank, Govt {
     @Override
     public double fdInterest(double depAmt, int depPeriod) {
         double roi = 3.5f;
@@ -18,5 +18,15 @@ public class CitiBank implements Bank {
 
     void someMethod() {
         System.out.println("Additional Methods");
+    }
+
+    @Override
+    public void myMethod() {
+        System.out.println("second  Method");
+    }
+
+    public void yourMethod() {
+        System.out.println("default  Method");
+
     }
 }
