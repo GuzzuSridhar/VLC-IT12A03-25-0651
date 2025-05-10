@@ -63,8 +63,8 @@ public class Scope {
         // accessing the instance method
         scope.instanceMethod();
         // // accessing the static method
-        // Scope.staticMethod();
-        // staticMethod();
+        Scope.staticMethod();
+        staticMethod();
 
     }
 }
