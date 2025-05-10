@@ -48,7 +48,7 @@ public class Scope {
         // staticVar = 101; use the Scope.staticVar outside this class
 
         // instanceMethod(); // not allowed
-        // scope.instanceMethod(); //
+        // scope.instanceMethod();
     }
 
     public static void main(String[] args) {
