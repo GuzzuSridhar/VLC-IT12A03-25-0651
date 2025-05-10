@@ -25,6 +25,8 @@ public class Account {
         this.type = type;
     }
 
+    // ovveride the toString() method to display the content of an object and not
+    // the ID when printed
     @Override
     public String toString() {
         return "acctId=" + acctId + ", type=" + type;
