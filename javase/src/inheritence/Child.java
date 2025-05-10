@@ -25,6 +25,13 @@ public class Child extends Parent {
 
 }
 
+/*
+ * Inheritence in Java
+ * 1. Java supports only single inheritence.
+ * 2. Java supports multi level inheritence
+ * 
+ */
+
 // Method Overriding rules
 /*
  * 1. Same Name
