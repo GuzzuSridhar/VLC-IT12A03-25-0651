@@ -46,3 +46,5 @@ public class BankAccount {
     }
 
 }
+
+// by ignoring the setter method for any member variable it becomes read-only
