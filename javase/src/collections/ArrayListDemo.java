@@ -25,10 +25,10 @@ public class ArrayListDemo {
 
         // Methods in ArrayList
         // add method
-        names.add("John");
-        names.add("Alex");
-        names.add("Alex");
-        names.add("Sara");
+        names.add("John"); // 0
+        names.add("Alex");// 1
+        names.add("Alex"); // 2
+        names.add("Sara");// 3
 
         // size method
         System.out.println(names.size());
@@ -47,7 +47,7 @@ public class ArrayListDemo {
         displayList(names);
 
         // indexOf method (if value is present the the index is returned otherwise -1)
-        int temp = names.indexOf("Janes");
+        int temp = names.indexOf("Jane");
         System.out.println(temp);
     }
 }
