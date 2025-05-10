@@ -20,6 +20,7 @@ public class ArrayListDemo {
          * ArrayLists are Generic
          * bound less
          * can contain duplicates
+         * Ordered Collections
          */
 
         // Methods in ArrayList
