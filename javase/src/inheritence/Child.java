@@ -24,3 +24,13 @@ public class Child extends Parent {
     }
 
 }
+
+// Method Overriding rules
+/*
+ * 1. Same Name
+ * 2. Same Parameter List
+ * 3. Same Return Type
+ * 4. Accessmodifier cannot be more restrictive than the parent
+ * 5. Private parent methods cannot be overridden
+ * 6. Final methods cannot be overridden
+ */
