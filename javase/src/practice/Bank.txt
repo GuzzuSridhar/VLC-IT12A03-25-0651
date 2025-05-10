@@ -1,0 +1,4 @@
+Use the question in Bank.md file
+convert the Bank class to an encapsulated class
+create a AccountList class with ArrayLists to create as many accounts as possible
+use the userinput to capture the details of accounts
