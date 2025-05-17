@@ -9,6 +9,7 @@ import java.util.logging.XMLFormatter;
 
 import records.Person;
 
+@SuppressWarnings("unused")
 public class FileLogs {
     static Logger logger = Logger.getLogger("FileLogs");
 
