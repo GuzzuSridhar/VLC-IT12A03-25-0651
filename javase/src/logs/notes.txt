@@ -8,5 +8,7 @@ FINE
 FINER 
 FINEST
 
+all the levels of messages above the set level will be logged
+
 ALL 
 OFF 
