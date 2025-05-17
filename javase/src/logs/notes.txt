@@ -1,0 +1,12 @@
+Log level
+
+Severe
+Warning 
+INFO   --- Default level 
+CONFIG
+FINE 
+FINER 
+FINEST
+
+ALL 
+OFF 
