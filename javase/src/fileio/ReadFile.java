@@ -13,5 +13,6 @@ public class ReadFile {
             System.out.print(val);
             // System.out.print(ch);
         }
+        fileReader.close();
     }
 }
