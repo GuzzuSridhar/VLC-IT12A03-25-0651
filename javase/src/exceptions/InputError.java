@@ -12,8 +12,9 @@ public class InputError {
             System.out.println(i);
         } catch (InputMismatchException e) {
             System.out.println("Enter a valid Number");
+        } finally {
+            input.close();
         }
         System.out.println("Other logic......");
-        input.close();
     }
 }
