@@ -62,7 +62,6 @@ public class Employee implements Serializable {
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
-
     }
 
 }
