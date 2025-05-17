@@ -6,6 +6,7 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 import java.util.logging.XMLFormatter;
 
+@SuppressWarnings("unused")
 public class ConsoleLogs {
 
     static Logger logger = Logger.getLogger(ConsoleLogs.class.getName());
