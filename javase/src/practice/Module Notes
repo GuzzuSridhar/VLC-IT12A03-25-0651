@@ -1,0 +1,33 @@
+# Sample 1
+
+E:\Master Samples\ModularApp>tree /f
+Folder PATH listing for volume Work
+Volume serial number is BAB9-AA60
+E:.
+├───mymodule
+│ HelloWorld.java
+│ module-info.java
+│
+
+```java
+package mymodule;
+public class HelloWorld {
+	public static void main(String[] args) {
+		System.out.println("Hello from Module A!");
+	}
+}
+```
+
+```java
+module mymodule{
+	exports mymodule;
+}
+```
+
+```bash
+javac -d out mymodule/*.java
+```
+
+```bash
+java -p out -m mymodule/mymodule.HelloWorld
+```
