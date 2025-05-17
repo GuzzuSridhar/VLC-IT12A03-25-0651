@@ -35,7 +35,7 @@ public class Employee implements Serializable {
         return "Employee [id=" + id + ", name=" + name + "]";
     }
 
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args) {
         // Employee employee = new Employee(100, "Alex");
         // write the employee object to a file
         // Serialization
@@ -59,7 +59,7 @@ public class Employee implements Serializable {
             System.out.println(readEmp);
             in.close();
             fileInputStream.close();
-        } catch (IOException e) {
+        } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
 
