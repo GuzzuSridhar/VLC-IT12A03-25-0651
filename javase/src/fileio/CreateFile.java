@@ -6,7 +6,8 @@ import java.io.IOException;
 public class CreateFile {
     public static void main(String[] args) {
         // File create a file object
-        File file = new File("myfile.txt"); // the file is created in the current dir
+        // File file = new File("myfile.txt"); // the file is created in the current dir
+        File file = new File("d:\\myfile.txt"); // the file is created in the custom dir
         try {
             if (file.createNewFile()) // has to handle the checked exception
                 System.out.println("File Created");
